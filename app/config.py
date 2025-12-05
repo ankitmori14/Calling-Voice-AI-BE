@@ -45,7 +45,7 @@ class Settings(BaseSettings):
     WORKERS: int = 1
 
     # CORS Configuration
-    ALLOWED_ORIGINS: Union[list[str], str] = ["http://localhost:5173", "http://localhost:3000"]
+    ALLOWED_ORIGINS: Union[list[str], str] = ["http://localhost:5173", "http://localhost:3000","https://calling-voice-ai-be-1.onrender.com"]
 
     @field_validator('ALLOWED_ORIGINS', mode='before')
     @classmethod
