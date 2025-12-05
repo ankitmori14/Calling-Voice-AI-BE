@@ -8,4 +8,4 @@ LIVEKIT_PID=$!
 
 # Start Uvicorn in the foreground (so container stays alive)
 echo "Starting Uvicorn..."
-exec python -m uvicorn app.main:app --reload --port 8000
+exec python -m uvicorn app.main:app
