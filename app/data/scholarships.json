@@ -1,0 +1,110 @@
+{
+  "scholarship_rules": {
+    "merit_based": {
+      "name": "Merit Scholarship",
+      "description": "Based on 12th standard percentage",
+      "tiers": [
+        {
+          "min_percentage": 90,
+          "max_percentage": 100,
+          "discount_percentage": 50,
+          "description": "90% and above - 50% tuition waiver"
+        },
+        {
+          "min_percentage": 80,
+          "max_percentage": 89.99,
+          "discount_percentage": 25,
+          "description": "80-90% - 25% tuition waiver"
+        },
+        {
+          "min_percentage": 70,
+          "max_percentage": 79.99,
+          "discount_percentage": 10,
+          "description": "70-80% - 10% tuition waiver"
+        }
+      ]
+    },
+    "early_bird": {
+      "name": "Early Bird Discount",
+      "description": "For students who apply before deadline",
+      "discount_percentage": 5,
+      "deadline": "2025-03-15",
+      "conditions": "Apply and pay first installment before 15th March 2025"
+    },
+    "sibling": {
+      "name": "Sibling Discount",
+      "description": "For students with siblings already studying at Parul",
+      "discount_percentage": 10,
+      "conditions": "One sibling currently enrolled at Parul University"
+    },
+    "sports": {
+      "name": "Sports Scholarship",
+      "description": "For national and state level sports persons",
+      "tiers": [
+        {
+          "level": "national",
+          "discount_percentage": 75,
+          "description": "National level sports person - 75% tuition waiver"
+        },
+        {
+          "level": "state",
+          "discount_percentage": 50,
+          "description": "State level sports person - 50% tuition waiver"
+        }
+      ]
+    },
+    "economically_weaker": {
+      "name": "EWS (Economically Weaker Section)",
+      "description": "For students from economically weaker sections",
+      "discount_percentage": 30,
+      "conditions": "Family income less than ₹3,00,000 per annum with valid certificate"
+    },
+    "government_schemes": [
+      {
+        "name": "Post-Matric Scholarship",
+        "provider": "State Government",
+        "description": "For SC/ST/OBC students",
+        "eligibility": "Valid caste certificate and income certificate required"
+      },
+      {
+        "name": "PM Scholarship",
+        "provider": "Central Government",
+        "description": "Prime Minister's Scholarship Scheme",
+        "eligibility": "Children of armed forces personnel"
+      },
+      {
+        "name": "Merit-cum-Means Scholarship",
+        "provider": "UGC",
+        "description": "For economically disadvantaged meritorious students",
+        "eligibility": "Family income < ₹6,00,000 and good academic record"
+      }
+    ]
+  },
+  "stacking_rules": {
+    "max_discount_percentage": 75,
+    "stackable_combinations": [
+      {
+        "scholarships": ["merit_based", "early_bird"],
+        "description": "Merit scholarship can be combined with early bird discount"
+      },
+      {
+        "scholarships": ["merit_based", "sibling"],
+        "description": "Merit scholarship can be combined with sibling discount"
+      },
+      {
+        "scholarships": ["early_bird", "sibling"],
+        "description": "Early bird can be combined with sibling discount"
+      }
+    ],
+    "non_stackable": [
+      {
+        "scholarships": ["merit_based", "sports"],
+        "description": "Merit and sports scholarships cannot be combined - higher one applies"
+      },
+      {
+        "scholarships": ["merit_based", "economically_weaker"],
+        "description": "Merit and EWS cannot be combined - higher one applies"
+      }
+    ]
+  }
+}

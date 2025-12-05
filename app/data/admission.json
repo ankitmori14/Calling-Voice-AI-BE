@@ -1,0 +1,176 @@
+{
+  "admission_process": {
+    "application": {
+      "step_number": 1,
+      "title": "Online Application",
+      "description": "Fill and submit online application form",
+      "details": {
+        "portal_url": "https://admissions.paruluniversity.ac.in",
+        "application_fee": 1000,
+        "start_date": "2025-01-01",
+        "end_date": "2025-04-30",
+        "early_deadline": "2025-03-15",
+        "duration_minutes": 15
+      },
+      "required_information": [
+        "Personal details (Name, DOB, Address)",
+        "Educational qualifications",
+        "Contact information (Email, Phone)",
+        "Course preference",
+        "Upload photo and signature"
+      ]
+    },
+    "entrance_test": {
+      "step_number": 2,
+      "title": "Entrance Test",
+      "description": "Take entrance exam or submit scores",
+      "options": [
+        {
+          "type": "PU-CET",
+          "name": "Parul University Common Entrance Test",
+          "description": "University conducted online entrance test",
+          "date": "2025-05-15",
+          "duration_hours": 2,
+          "total_questions": 100,
+          "syllabus": "Based on 12th standard syllabus (PCM/PCB as per course)",
+          "test_mode": "Online from home",
+          "applicable_for": ["BTECH_CSE", "BTECH_MECH", "BPHARMA"]
+        },
+        {
+          "type": "JEE_MAIN",
+          "name": "JEE Main Score",
+          "description": "Submit JEE Main scorecard",
+          "applicable_for": ["BTECH_CSE", "BTECH_MECH"],
+          "no_separate_test": true
+        },
+        {
+          "type": "CAT_MAT",
+          "name": "CAT/MAT Score",
+          "description": "Submit CAT or MAT scorecard",
+          "applicable_for": ["MBA"],
+          "no_separate_test": true
+        },
+        {
+          "type": "DIRECT",
+          "name": "Merit-based Direct Admission",
+          "description": "Based on 12th marks only",
+          "applicable_for": ["BBA"],
+          "no_entrance_required": true
+        }
+      ]
+    },
+    "counseling": {
+      "step_number": 3,
+      "title": "Counseling & Seat Allotment",
+      "description": "Counseling based on rank/merit",
+      "details": {
+        "start_date": "2025-06-01",
+        "end_date": "2025-06-15",
+        "mode": "Online",
+        "rounds": 2,
+        "process": [
+          "Login with application credentials",
+          "Choose branch/specialization preference",
+          "Seat allotment based on rank",
+          "Accept or reject seat",
+          "Second round if seat available"
+        ]
+      }
+    },
+    "document_verification": {
+      "step_number": 4,
+      "title": "Document Verification",
+      "description": "Submit and verify original documents",
+      "required_documents": [
+        {
+          "name": "10th Marksheet",
+          "type": "Original + 2 photocopies",
+          "mandatory": true
+        },
+        {
+          "name": "12th Marksheet",
+          "type": "Original + 2 photocopies",
+          "mandatory": true
+        },
+        {
+          "name": "12th Passing Certificate",
+          "type": "Original + 2 photocopies",
+          "mandatory": true
+        },
+        {
+          "name": "Aadhar Card",
+          "type": "Original + 2 photocopies",
+          "mandatory": true
+        },
+        {
+          "name": "Transfer Certificate",
+          "type": "Original",
+          "mandatory": true,
+          "from": "Previous institution"
+        },
+        {
+          "name": "Migration Certificate",
+          "type": "Original",
+          "mandatory": false,
+          "condition": "If from different board/university"
+        },
+        {
+          "name": "Character Certificate",
+          "type": "Original",
+          "mandatory": true
+        },
+        {
+          "name": "Passport Size Photos",
+          "type": "6 numbers",
+          "mandatory": true
+        },
+        {
+          "name": "Caste Certificate",
+          "type": "Original + 2 photocopies",
+          "mandatory": false,
+          "condition": "If claiming reservation"
+        },
+        {
+          "name": "Income Certificate",
+          "type": "Original + 2 photocopies",
+          "mandatory": false,
+          "condition": "For EWS/scholarship"
+        }
+      ],
+      "verification_mode": "Online upload + Physical verification on joining"
+    },
+    "fee_payment": {
+      "step_number": 5,
+      "title": "Fee Payment & Admission Confirmation",
+      "description": "Pay fees and confirm admission",
+      "details": {
+        "payment_modes": [
+          "Online (Credit/Debit Card, Net Banking, UPI)",
+          "DD in favor of 'Parul University'",
+          "Bank Transfer (NEFT/RTGS)"
+        ],
+        "payment_deadline": "Within 7 days of seat allotment",
+        "fees_to_pay": "First semester fee",
+        "scholarship_application": "Auto-applied if eligible",
+        "refund_policy": "95% refund if cancelled before course start"
+      }
+    }
+  },
+  "important_dates": {
+    "application_start": "2025-01-01",
+    "early_bird_deadline": "2025-03-15",
+    "application_end": "2025-04-30",
+    "entrance_test": "2025-05-15",
+    "result_declaration": "2025-05-25",
+    "counseling_round_1": "2025-06-01 to 2025-06-07",
+    "counseling_round_2": "2025-06-08 to 2025-06-15",
+    "classes_start": "2025-07-01"
+  },
+  "contact_information": {
+    "admission_helpline": "1800-123-4567",
+    "whatsapp": "+91-98765-43210",
+    "email": "admissions@paruluniversity.ac.in",
+    "working_hours": "Monday to Saturday, 9:00 AM to 6:00 PM",
+    "address": "Parul University, P.O. Limda, Waghodia, Vadodara - 391760, Gujarat, India"
+  }
+}

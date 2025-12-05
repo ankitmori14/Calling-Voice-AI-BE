@@ -1,0 +1,30 @@
+# FastAPI & Server
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic-settings
+
+# LiveKit
+livekit-agents==1.2.18
+livekit-api
+livekit-plugins-openai==1.2.18
+livekit-plugins-groq==1.2.18
+livekit-plugins-silero==1.2.18
+livekit-plugins-langchain
+
+# LangGraph & LangChain
+langgraph
+langchain
+langchain-core
+langchain-groq
+
+# Utilities
+python-dotenv
+pydantic
+pydantic[email]
+python-jose[cryptography]
+aiohttp
+aiofiles
+
+# Logging & Monitoring
+loguru

@@ -1,0 +1,189 @@
+{
+  "fee_structure": [
+    {
+      "course_id": "BTECH_CSE",
+      "annual_fee": 185000,
+      "semester_fee": 92500,
+      "breakdown": {
+        "tuition": 150000,
+        "lab_library": 20000,
+        "development": 15000
+      },
+      "payment_options": [
+        {
+          "type": "annual",
+          "description": "One-time annual payment",
+          "discount_percentage": 5,
+          "amount": 175750
+        },
+        {
+          "type": "semester",
+          "description": "Two installments (semester-wise)",
+          "installments": 2,
+          "amount_per_installment": 92500
+        },
+        {
+          "type": "quarterly",
+          "description": "Four installments (quarterly)",
+          "installments": 4,
+          "amount_per_installment": 46250
+        }
+      ],
+      "additional_costs": {
+        "hostel": 80000,
+        "mess": "Included in hostel",
+        "books_approx": 15000,
+        "exam_fees": "Included",
+        "transport_optional": 12000
+      }
+    },
+    {
+      "course_id": "BTECH_MECH",
+      "annual_fee": 175000,
+      "semester_fee": 87500,
+      "breakdown": {
+        "tuition": 140000,
+        "lab_library": 20000,
+        "development": 15000
+      },
+      "payment_options": [
+        {
+          "type": "annual",
+          "description": "One-time annual payment",
+          "discount_percentage": 5,
+          "amount": 166250
+        },
+        {
+          "type": "semester",
+          "description": "Two installments (semester-wise)",
+          "installments": 2,
+          "amount_per_installment": 87500
+        },
+        {
+          "type": "quarterly",
+          "description": "Four installments (quarterly)",
+          "installments": 4,
+          "amount_per_installment": 43750
+        }
+      ],
+      "additional_costs": {
+        "hostel": 80000,
+        "mess": "Included in hostel",
+        "books_approx": 12000,
+        "exam_fees": "Included",
+        "transport_optional": 12000
+      }
+    },
+    {
+      "course_id": "MBA",
+      "annual_fee": 225000,
+      "semester_fee": 112500,
+      "breakdown": {
+        "tuition": 200000,
+        "library": 15000,
+        "development": 10000
+      },
+      "payment_options": [
+        {
+          "type": "annual",
+          "description": "One-time annual payment",
+          "discount_percentage": 5,
+          "amount": 213750
+        },
+        {
+          "type": "semester",
+          "description": "Two installments (semester-wise)",
+          "installments": 2,
+          "amount_per_installment": 112500
+        },
+        {
+          "type": "quarterly",
+          "description": "Four installments (quarterly)",
+          "installments": 4,
+          "amount_per_installment": 56250
+        }
+      ],
+      "additional_costs": {
+        "hostel": 90000,
+        "mess": "Included in hostel",
+        "books_approx": 10000,
+        "exam_fees": "Included",
+        "transport_optional": 12000
+      }
+    },
+    {
+      "course_id": "BBA",
+      "annual_fee": 125000,
+      "semester_fee": 62500,
+      "breakdown": {
+        "tuition": 105000,
+        "library": 12000,
+        "development": 8000
+      },
+      "payment_options": [
+        {
+          "type": "annual",
+          "description": "One-time annual payment",
+          "discount_percentage": 5,
+          "amount": 118750
+        },
+        {
+          "type": "semester",
+          "description": "Two installments (semester-wise)",
+          "installments": 2,
+          "amount_per_installment": 62500
+        },
+        {
+          "type": "quarterly",
+          "description": "Four installments (quarterly)",
+          "installments": 4,
+          "amount_per_installment": 31250
+        }
+      ],
+      "additional_costs": {
+        "hostel": 75000,
+        "mess": "Included in hostel",
+        "books_approx": 8000,
+        "exam_fees": "Included",
+        "transport_optional": 12000
+      }
+    },
+    {
+      "course_id": "BPHARMA",
+      "annual_fee": 165000,
+      "semester_fee": 82500,
+      "breakdown": {
+        "tuition": 135000,
+        "lab_library": 20000,
+        "development": 10000
+      },
+      "payment_options": [
+        {
+          "type": "annual",
+          "description": "One-time annual payment",
+          "discount_percentage": 5,
+          "amount": 156750
+        },
+        {
+          "type": "semester",
+          "description": "Two installments (semester-wise)",
+          "installments": 2,
+          "amount_per_installment": 82500
+        },
+        {
+          "type": "quarterly",
+          "description": "Four installments (quarterly)",
+          "installments": 4,
+          "amount_per_installment": 41250
+        }
+      ],
+      "additional_costs": {
+        "hostel": 80000,
+        "mess": "Included in hostel",
+        "books_approx": 14000,
+        "exam_fees": "Included",
+        "transport_optional": 12000
+      }
+    }
+  ]
+}

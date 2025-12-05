@@ -1,0 +1,186 @@
+{
+  "courses": [
+    {
+      "id": "BTECH_CSE",
+      "name": "B.Tech Computer Science Engineering",
+      "level": "undergraduate",
+      "department": "Engineering",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "eligibility": {
+        "education": "12th pass",
+        "subjects": ["Physics", "Chemistry", "Mathematics"],
+        "minimum_percentage": 50
+      },
+      "seats": 120,
+      "description": "4-year undergraduate program in Computer Science and Engineering covering core CS subjects, programming, and modern technologies",
+      "specializations": [
+        "Artificial Intelligence & Machine Learning",
+        "Cloud Computing & DevOps",
+        "Cybersecurity",
+        "Data Science"
+      ],
+      "subjects": [
+        "Data Structures & Algorithms",
+        "Database Management Systems",
+        "Operating Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Web Technologies",
+        "Machine Learning",
+        "Cloud Computing"
+      ],
+      "career_options": [
+        "Software Engineer",
+        "Data Scientist",
+        "Cloud Architect",
+        "Full Stack Developer",
+        "ML Engineer"
+      ]
+    },
+    {
+      "id": "BTECH_MECH",
+      "name": "B.Tech Mechanical Engineering",
+      "level": "undergraduate",
+      "department": "Engineering",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "eligibility": {
+        "education": "12th pass",
+        "subjects": ["Physics", "Chemistry", "Mathematics"],
+        "minimum_percentage": 50
+      },
+      "seats": 100,
+      "description": "4-year undergraduate program in Mechanical Engineering focusing on design, manufacturing, and thermal systems",
+      "specializations": [
+        "Automotive Engineering",
+        "Robotics & Automation",
+        "Thermal Engineering",
+        "Manufacturing"
+      ],
+      "subjects": [
+        "Thermodynamics",
+        "Fluid Mechanics",
+        "Manufacturing Processes",
+        "Machine Design",
+        "CAD/CAM",
+        "Robotics",
+        "Automobile Engineering"
+      ],
+      "career_options": [
+        "Mechanical Engineer",
+        "Automotive Engineer",
+        "Production Manager",
+        "Design Engineer",
+        "Quality Control Engineer"
+      ]
+    },
+    {
+      "id": "MBA",
+      "name": "MBA (Master of Business Administration)",
+      "level": "postgraduate",
+      "department": "Management",
+      "duration_years": 2,
+      "duration_semesters": 4,
+      "eligibility": {
+        "education": "Bachelor's degree in any discipline",
+        "minimum_percentage": 50
+      },
+      "seats": 60,
+      "description": "2-year postgraduate program in Business Administration with specializations in various management domains",
+      "specializations": [
+        "Marketing",
+        "Finance",
+        "Human Resource Management",
+        "International Business",
+        "Operations Management"
+      ],
+      "subjects": [
+        "Business Analytics",
+        "Financial Management",
+        "Marketing Management",
+        "Operations Research",
+        "Strategic Management",
+        "Organizational Behavior"
+      ],
+      "career_options": [
+        "Business Analyst",
+        "Marketing Manager",
+        "Financial Analyst",
+        "HR Manager",
+        "Operations Manager"
+      ]
+    },
+    {
+      "id": "BBA",
+      "name": "BBA (Bachelor of Business Administration)",
+      "level": "undergraduate",
+      "department": "Management",
+      "duration_years": 3,
+      "duration_semesters": 6,
+      "eligibility": {
+        "education": "12th pass in any stream",
+        "minimum_percentage": 50
+      },
+      "seats": 80,
+      "description": "3-year undergraduate program providing foundation in business management and administration",
+      "specializations": [
+        "Marketing",
+        "Finance",
+        "International Business",
+        "Entrepreneurship"
+      ],
+      "subjects": [
+        "Principles of Management",
+        "Business Economics",
+        "Accounting",
+        "Marketing Management",
+        "Human Resource Management",
+        "Business Law"
+      ],
+      "career_options": [
+        "Business Development Executive",
+        "Marketing Executive",
+        "Sales Manager",
+        "HR Executive",
+        "Entrepreneur"
+      ]
+    },
+    {
+      "id": "BPHARMA",
+      "name": "B.Pharma (Bachelor of Pharmacy)",
+      "level": "undergraduate",
+      "department": "Pharmacy",
+      "duration_years": 4,
+      "duration_semesters": 8,
+      "eligibility": {
+        "education": "12th pass",
+        "subjects": ["Physics", "Chemistry", "Biology/Mathematics"],
+        "minimum_percentage": 50
+      },
+      "seats": 60,
+      "description": "4-year undergraduate program in Pharmaceutical Sciences covering drug development, manufacturing, and dispensing",
+      "specializations": [
+        "Pharmaceutical Chemistry",
+        "Pharmacology",
+        "Clinical Pharmacy",
+        "Drug Regulatory Affairs"
+      ],
+      "subjects": [
+        "Pharmaceutical Chemistry",
+        "Pharmacology",
+        "Pharmaceutics",
+        "Pharmacognosy",
+        "Clinical Pharmacy",
+        "Drug Regulatory Affairs"
+      ],
+      "career_options": [
+        "Pharmacist",
+        "Drug Inspector",
+        "Research Scientist",
+        "Quality Control Officer",
+        "Medical Representative"
+      ]
+    }
+  ]
+}
