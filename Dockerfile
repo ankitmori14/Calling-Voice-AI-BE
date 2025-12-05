@@ -27,7 +27,7 @@ RUN pip install --upgrade pip setuptools wheel \
 COPY . /app
 
 # Expose the port that the FastAPI app will run on
-EXPOSE 8000
+# EXPOSE 8000
 
 # Use a non-root user (optional but recommended)
 RUN useradd --create-home appuser && chown -R appuser:appuser /app
